@@ -14,8 +14,8 @@ import {
 import { useState } from 'react';
 import useStyles from './styles';
 
-const Enemy = ({ enemy }) => {
-  const { id, name, image, description, common_locations } = enemy;
+const Data = ({ data }) => {
+  const { id, name, image, description, common_locations } = data;
 
   const [open, setOpen] = useState(false);
 
@@ -28,7 +28,6 @@ const Enemy = ({ enemy }) => {
   };
 
   const classes = useStyles();
-
   return (
     <Grid item xs={6} sm={4} md={3} lg={2} align="center">
       <Card className={classes.root} variant="outlined">
@@ -85,4 +84,4 @@ const Enemy = ({ enemy }) => {
   );
 };
 
-export default Enemy;
+export default Data;

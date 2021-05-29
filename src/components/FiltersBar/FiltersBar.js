@@ -18,7 +18,7 @@ const FiltersBar = () => {
         </Link>
       </Grid>
       <Grid item className={classes.item}>
-        <Link href="/compendium/enemies" className={classes.link}>
+        <Link href="/compendium/monsters" className={classes.link}>
           <Typography className={classes.typography}>Enemies</Typography>
           <svg width="66" height="65" viewBox="0 0 66 65">
             <path
@@ -41,7 +41,7 @@ const FiltersBar = () => {
         </Link>
       </Grid>
       <Grid item className={classes.item}>
-        <Link href="/compendium/weapons" className={classes.link}>
+        <Link href="/compendium/equipment" className={classes.link}>
           <Typography className={classes.typography}>Weapons</Typography>
           <svg width="65" height="65" viewBox="0 0 65 65">
             <path
@@ -52,7 +52,7 @@ const FiltersBar = () => {
         </Link>
       </Grid>
       <Grid item className={classes.item}>
-        <Link href="/compendium/treasures" className={classes.link}>
+        <Link href="/compendium/treasure" className={classes.link}>
           <Typography className={classes.typography}>Treasures</Typography>
           <svg width="68" height="63" viewBox="0 0 68 57">
             <path
