@@ -1,13 +1,17 @@
 import { Grid, Typography, Paper } from '@material-ui/core';
 import { useLocation } from 'wouter';
-import Enemies from '../../components/Enemies/Enemies';
-import Materials from '../../components/Materials/Materials';
+
 import FiltersBar from '../../components/FiltersBar/FiltersBar';
 import useStyles from './styles';
 import { useEffect } from 'react';
-const Comprendium = () => {
+
+import DisplayData from '../../components/DisplayData/DisplayData';
+
+const Comprendium = ({ params }) => {
   const classes = useStyles();
   const [location] = useLocation();
+
+  const { index } = params;
 
   useEffect(() => {
     console.log(location);
@@ -36,8 +40,9 @@ const Comprendium = () => {
             <FiltersBar />
           </Paper>
         </Grid>
-        {location === '/compendium/enemies' ? <Enemies /> : ''}
-        {location === '/compendium/materials' ? <Materials /> : ''}
+        {index !== undefined ? <DisplayData category={index} /> : ''}
+        {/* {index === 'enemies' ? <DisplayData category="enemies" /> : ''}
+        {index === 'materials' ? <Materials /> : ' '} */}
         {/* {location === '/compendium/creatures' ? <Creatures /> : ''}
         {location === '/compendium/weapons' ? <Weapons /> : ''}
         {location === '/compendium/treasures' ? <Treasures /> : ''} */}

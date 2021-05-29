@@ -8,11 +8,7 @@ const App = () => {
     <>
       <Route path="/" component={Home} />
       <Route path="/compendium" component={Comprendium} />
-      <Route path="/compendium/creatures" component={Comprendium} />
-      <Route path="/compendium/enemies" component={Comprendium} />
-      <Route path="/compendium/materials" component={Comprendium} />
-      <Route path="/compendium/weapons" component={Comprendium} />
-      <Route path="/compendium/treasures" component={Comprendium} />
+      <Route path="/compendium/:index" component={Comprendium} />
     </>
   );
 };
