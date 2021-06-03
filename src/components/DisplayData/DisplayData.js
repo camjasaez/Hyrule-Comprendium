@@ -11,12 +11,6 @@ const DisplayData = ({ category }) => {
   const [loading, setLoading] = useState(false);
   const classes = useStyles();
 
-  // equipment
-  // materials
-  // monsters
-  // treasure
-
-  //   category = 'equipment';
   useEffect(() => {
     setLoading(true);
     getData(category)

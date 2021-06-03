@@ -5,7 +5,6 @@ const useStyles = makeStyles(() => ({
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderRadius: '46px',
     border: '1px solid rgba(0, 0, 0, 0)',
-    // borderColor: 'rgba(255, 255, 255, 0)',
     maxWidth: 178,
     minHeight: 10,
     padding: 10,

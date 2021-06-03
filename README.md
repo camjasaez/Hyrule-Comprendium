@@ -7,6 +7,7 @@ This is a simple version of the Hyrule compendium from the video game Zelda: bre
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [Material-IU](https://material-ui.com/) - React components for faster and easier web development
 - [Hyrule-Compendium-API](https://github.com/gadhagod/Hyrule-Compendium-API) - The API
+- [Wouter](https://github.com/molefrog/wouter) - A minimalist-friendly ~1.5KB routing for React
 
 ## Thanks to 🎁:
 

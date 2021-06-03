@@ -1,6 +1,5 @@
 import { Route } from 'wouter';
 import Home from './pages/Home/Home';
-// import Monsters from './components/Monsters/Monsters';
 import Comprendium from './pages/Compendium/Compendium';
 
 const App = () => {

@@ -30,8 +30,3 @@ const getData = async (categoryData) => {
   return fetchData([]);
 };
 export default getData;
-
-// equipment
-// materials
-// monsters
-// treasure

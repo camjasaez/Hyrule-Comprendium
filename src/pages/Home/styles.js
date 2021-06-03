@@ -1,12 +1,10 @@
 import { makeStyles } from '@material-ui/core/styles';
 import Frame from '../../images/background-texture.png';
-// import Background from '../../images/background-home.png';
 const useStyles = makeStyles(() => ({
   root: {
     backgroundImage: `url('${Frame}')`,
     backgroundPosition: 'center',
     minHeight: '100vh',
-    // maxWidth: '100vw',
   },
   title: {
     color: '#21BCFF',

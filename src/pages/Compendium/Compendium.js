@@ -41,11 +41,6 @@ const Comprendium = ({ params }) => {
           </Paper>
         </Grid>
         {index !== undefined ? <DisplayData category={index} /> : ''}
-        {/* {index === 'enemies' ? <DisplayData category="enemies" /> : ''}
-        {index === 'materials' ? <Materials /> : ' '} */}
-        {/* {location === '/compendium/creatures' ? <Creatures /> : ''}
-        {location === '/compendium/weapons' ? <Weapons /> : ''}
-        {location === '/compendium/treasures' ? <Treasures /> : ''} */}
       </Grid>
     </>
   );
