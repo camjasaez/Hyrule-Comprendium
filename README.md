@@ -14,4 +14,7 @@ This is a simple version of the Hyrule compendium from the video game Zelda: bre
 - [@Aarav Borthakur](https://github.com/gadhagod) - for building the API
 - [@hunterparamore](https://hunterparamore.com/) - for UI Kit
 
+
+## *Project preview coming soon...*
+
 ⌨️ with ❤️ by [@camjasaez](https://github.com/camjasaez)
